@@ -17,26 +17,26 @@ let totalSum = document.getElementById("sum-total")
 
 function add(){
     let result = num1 + num2
-    totalSum.textContent += result
+    totalSum.textContent += result + ',' + " "
     
 }
 
 function subtract(){
     let result = num1 - num2
-    totalSum.textContent += result
+    totalSum.textContent += result + ',' + " "
     
 }
 
 function divide(){
     let result = num1 / num2
-    totalSum.textContent += result
+    totalSum.textContent += result + ',' + " "
    
   
 }
 
 function multiply(){
     let result = num1 * num2
-    totalSum.textContent += result
+    totalSum.textContent += result + ',' + " "
 }
 
 
